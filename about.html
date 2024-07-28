@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Ajeem Makandar</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        .whole_page {
+    background-color: var(--extra-light);
+    min-height: 89vh;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.main_content {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.header_content {
+    margin-bottom: 20px;
+}
+
+.header_content p {
+    font-size: 1.5rem;
+}
+
+@keyframes changeStatus {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.info-item {
+    background-color: #f76a4b;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 160vh;
+}
+
+.info-item label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.info-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info-item li {
+    margin-bottom: 10px;
+}
+
+.info-item p {
+    margin: 0;
+}
+
+.info-item ul li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+.container p{
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+    ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .main_content {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+.container1{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <!-- <img src="images/profile.jpg" alt="Profile Picture"> -->
+            <div>
+                <h1>Ajeem Makandar</h1>
+                <p>IT Engineer</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am a passionate IT Engineer with expertise in software development, cloud computing, and cybersecurity.</p>
+                <p>My goal is to leverage technology to drive innovation and solve real-world problems.</p>
+            </div>
+            <div class="whole_page">
+                <div class="main_content">
+                    <div class="info-item">
+                        <label><b>Experience:</b></label>
+                        <ul>
+                            <li><b>Intern at Oasis Infobyte</b>
+                                <br>Dec 2022 - Jan 2023
+                            </li> &nbsp;&nbsp;&nbsp;
+                            <li><b>Intern at Softron IT Services, Kolhapur</b>
+                                <br>Jul 2023 - Aug 2023
+                            </li> &nbsp;&nbsp;&nbsp;
+                        </ul>
+                    </div>
+        
+                    <div class="info-item">
+                        <label><b>Specificity:</b></label>
+                        <p>Web Development, App Development, Front-end Development, Web Designing</p>
+                    </div>
+        
+                    <div class="info-item">
+                        <label><b>Address:</b></label>
+                        <p><a href="#" target="_blank">Ichalkaranji, Kolhapur, Maharashtra,India</a></p>
+                    </div>
+        
+                    <div class="info-item">
+                        <label><b>Email:</b></label>
+                        <p><a href="mailto:ajeem3690@gmail.com">ajeem3690@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ajeem Makandar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
